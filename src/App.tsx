@@ -16,13 +16,20 @@ function App() {
       width: 400,
       margin: 3
     }, (_, url) => {
-      setQrcodeLink(url)
+      if (url) {
+        setQrcodeLink(url)
+      }
     })
   }
 
   function handleChange(event: ChangeEvent<HTMLInputElement>) {
-    setLink(event.target.value)
-    handleQrcodeGenerate(event.target.value)
+    const value = event.target.value
+
+    setLink(value)
+
+    if (value !== '') {
+      handleQrcodeGenerate(value)
+    }
   }
 
   return (
