@@ -29,7 +29,7 @@ function App() {
     <div className='flex flex-col items-center justify-center bg-slate-900 
       w-screen h-screen px-10 py-10 sm:px-[30%] gap-20'
     >
-      <h1 className='text-slate-200 text-3xl md:text-6xl sm:text-5xl'>Gerador de QR code</h1>
+      <h1 className='text-center text-slate-200 text-3xl md:text-6xl sm:text-5xl'>Gerador de QR code</h1>
 
       <div className="flex flex-col w-full gap-4">
         <Label htmlFor='link' className='text-slate-200 text-xl'>
