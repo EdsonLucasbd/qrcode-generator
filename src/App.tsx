@@ -65,6 +65,25 @@ function App() {
             <a href={qrcodeLink} download='meu-qrcode.jpg'>Baixar QR code</a>
           </Button>
         </div>
+
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7594484605572689"
+          crossOrigin="anonymous">
+        </script>
+        {/* qrcode-footer */}
+        <ins
+          className="adsbygoogle"
+          style={{ display: 'block', backgroundColor: 'black' }}
+          data-ad-client="ca-pub-7594484605572689"
+          data-ad-slot="2768251025"
+          data-ad-format="auto"
+          data-adtest="on"
+          data-full-width-responsive="true">
+        </ins>
+        <script>
+          (adsbygoogle = window.adsbygoogle || []).push({ });
+        </script>
       </div>
     </div>
   )
